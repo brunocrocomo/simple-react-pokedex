@@ -8,7 +8,7 @@ const colors = {
     flying: '#A890F0',
     grass: '#78C850',
     poison: '#A040A0',
-    eletric: '#F8D030',
+    electric: '#F8D030',
     ground: '#E0C068',
     psychic: '#F85888',
     rock: '#B8A038',

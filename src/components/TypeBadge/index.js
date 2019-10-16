@@ -16,7 +16,7 @@ TypeBadge.propTypes = {
         'flying',
         'grass',
         'poison',
-        'eletric',
+        'electric',
         'ground',
         'psychic',
         'rock',
