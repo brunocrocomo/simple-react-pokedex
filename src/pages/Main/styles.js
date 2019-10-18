@@ -5,12 +5,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
 
-    margin-top: 30px;
     padding: 30px;
-    border-radius: 4px;
-
-    background: #fe0065;
-    font-family: Arial, Helvetica, sans-serif;
 
     h1 {
         color: #fff;
@@ -45,6 +40,8 @@ export const Container = styled.div`
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            min-width: 185px;
 
             padding: 15px 10px;
             border: 1px solid #eee;
