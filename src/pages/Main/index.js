@@ -17,7 +17,9 @@ export default function Main() {
     useEffect(() => {
         async function fetchPokemonList() {
             // Fetch Pokemon list (1st generation only, for now)
-            const response = await api.get(`pokemon?limit=151`);
+            const response = await api.get(`pokemon`, {
+                params: { limit: 150 },
+            });
 
             pokemonList.current = response.data.results.map(
                 (pokemon, index) => ({ ...pokemon, number: index + 1 })
