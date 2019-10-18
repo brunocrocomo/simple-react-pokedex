@@ -26,8 +26,8 @@ export default function Pokemon({ match }) {
 
             // Find Pokemon Red flavor text
             const flavorTextEntry = pokemonSpecies.flavor_text_entries.find(
-                f =>
-                    f.language.name === 'en' /*&& f.version.name === 'firered'*/
+                f => f.language.name === 'en'
+                /* && f.version.name === 'firered' */
             );
 
             pokemon.flavorText = flavorTextEntry.flavor_text.replace(
