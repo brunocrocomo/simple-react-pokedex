@@ -18,7 +18,7 @@ export default function Main() {
         async function fetchPokemonList() {
             // Fetch Pokemon list (1st generation only, for now)
             const response = await api.get(`pokemon`, {
-                params: { limit: 150 },
+                params: { limit: 151 },
             });
 
             pokemonList.current = response.data.results.map(
