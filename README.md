@@ -1,6 +1,6 @@
 # Simple React Pokedex
 
-A simple Pokedex written in [ReactJS](https://reactjs.org/) for study purposes. Part of **1st [Pecege](https://pecege.com/) Lero Tech**.
+A simple Pokedex written in [ReactJS](https://reactjs.org/) for study purposes. It was presented as a tutorial on the **1st edition of [Pecege](https://pecege.com/) Lero Tech**.
 
 Work in progress.
 
